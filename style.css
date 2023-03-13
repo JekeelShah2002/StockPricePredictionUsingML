@@ -1,0 +1,90 @@
+section[data-testid='stSidebar'] {
+    background-color: #111;
+    min-width:unset !important;
+    width: unset !important;
+    flex-shrink: unset !important;
+    
+}
+
+button[kind="header"] {
+    background-color: transparent;
+    color:rgb(180, 167, 141)
+}
+
+@media(hover){
+    /* header element to be removed */
+    header[data-testid="stHeader"] {
+        display:none;
+    }
+
+    /* The navigation menu specs and size */
+    section[data-testid='stSidebar'] > div {
+        height: 100%;
+        width: 90px;
+        position: relative;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111111;
+        overflow-x: hidden;
+        transition: 0.5s ease;
+        padding-top: 60px;
+        white-space: nowrap;
+    }
+
+    /* The navigation menu open and close on hover and size */
+    /* section[data-testid='stSidebar'] > div {
+    height: 100%;
+    width: 75px; /* Put some width to hover on. */
+    /* } 
+    /* ON HOVER */
+    section[data-testid='stSidebar'] > div:hover{
+    width: 280px;
+    }
+
+    /* The button on the streamlit navigation menu - hidden */
+    button[kind="header"] {
+        display: none;
+    }
+}
+     
+@media(max-width: 272px){
+    
+    section[data-testid='stSidebar'] > div {
+        width:15rem;
+    }
+}
+
+
+
+.navtab {
+    background-color:#111;
+    color: #818181;
+    font-size: 18px;
+    transition: .3s;
+    white-space: nowrap;
+}
+
+
+/* This controls the list component that contains the icons and the labels */
+.tab {
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding-left:30px;
+}
+
+/* We use the unordered list component to make sure when we hover, he colour changes and the pointer too */
+.tab-container :hover {
+    color: #f1f1f1;
+    cursor: pointer;   
+}
+
+
+
+/* Features of the icon */
+.material-icons {
+    position:fixed;
+    left:7.5px;
+    text-align: left;
+    
+}
