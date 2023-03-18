@@ -3,7 +3,7 @@ from urllib.error import URLError
 import pandas as pd
 import numpy as np
 import streamlit as st
-import yfinance as yf
+# import yfinance as yf
 from yahoo_fin.stock_info import get_data
 from st_on_hover_tabs import on_hover_tabs
 import warnings
