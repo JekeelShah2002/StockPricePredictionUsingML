@@ -1,2 +1,2 @@
 yahoo_fin
-st_on_hover_tabs
+streamlit-on-Hover-tabs
