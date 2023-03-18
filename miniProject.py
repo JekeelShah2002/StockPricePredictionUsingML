@@ -2,10 +2,7 @@ import base64
 from urllib.error import URLError
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
-import seaborn as sns
 import streamlit as st
-import altair as alt
 import yfinance as yf
 from yahoo_fin.stock_info import get_data
 from st_on_hover_tabs import on_hover_tabs
