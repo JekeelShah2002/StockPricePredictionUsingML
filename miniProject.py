@@ -302,7 +302,14 @@ try:
             st.markdown(
                 "<h5 style='color: black;text-align: center;'><b>Day Low Trend </b></h5>", unsafe_allow_html=True)
             st.line_chart(data=df, x='date', y='low')
-    
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.markdown(
+        "<p style='color: black;text-align: center;position: sticky;bottom: 0;width: 100%;'>Made with 💖 by Jekeel Shah</p>", unsafe_allow_html=True)
     
 except URLError as e:
     st.error(
